@@ -1,0 +1,26 @@
+2023-02-14 01:11:07,091 INFO    MainThread:25648 [wandb_setup.py:_flush():68] Configure stats pid to 25648
+2023-02-14 01:11:07,091 INFO    MainThread:25648 [wandb_setup.py:_flush():68] Loading settings from C:\Users\aadha\.config\wandb\settings
+2023-02-14 01:11:07,091 INFO    MainThread:25648 [wandb_setup.py:_flush():68] Loading settings from D:\Your Masters\Winter 23\Autoencoder\wandb\settings
+2023-02-14 01:11:07,091 INFO    MainThread:25648 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-02-14 01:11:07,091 INFO    MainThread:25648 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program_relpath': 'main.py', 'program': 'D:\\Your Masters\\Winter 23\\Autoencoder\\main.py'}
+2023-02-14 01:11:07,099 INFO    MainThread:25648 [wandb_init.py:_log_setup():492] Logging user logs to D:\Your Masters\Winter 23\Autoencoder\wandb\run-20230214_011107-3m1phogu\logs\debug.log
+2023-02-14 01:11:07,099 INFO    MainThread:25648 [wandb_init.py:_log_setup():493] Logging internal logs to D:\Your Masters\Winter 23\Autoencoder\wandb\run-20230214_011107-3m1phogu\logs\debug-internal.log
+2023-02-14 01:11:07,099 INFO    MainThread:25648 [wandb_init.py:init():532] calling init triggers
+2023-02-14 01:11:07,099 INFO    MainThread:25648 [wandb_init.py:init():538] wandb.init called with sweep_config: {}
+config: {}
+2023-02-14 01:11:07,099 INFO    MainThread:25648 [wandb_init.py:init():588] starting backend
+2023-02-14 01:11:07,099 INFO    MainThread:25648 [wandb_init.py:init():592] setting up manager
+2023-02-14 01:11:07,115 INFO    MainThread:25648 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-02-14 01:11:07,155 INFO    MainThread:25648 [wandb_init.py:init():599] backend started and connected
+2023-02-14 01:11:07,163 INFO    MainThread:25648 [wandb_init.py:init():687] updated telemetry
+2023-02-14 01:11:07,163 INFO    MainThread:25648 [wandb_init.py:init():727] communicating run to backend with 60.0 second timeout
+2023-02-14 01:11:10,334 WARNING MsgRouterThr:25648 [router.py:message_loop():77] message_loop has been closed
+2023-02-14 01:11:12,277 ERROR   MainThread:25648 [wandb_init.py:init():1160] error
+Traceback (most recent call last):
+  File "C:\Users\aadha\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\wandb\sdk\wandb_init.py", line 1133, in init
+    run = wi.init()
+  File "C:\Users\aadha\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\wandb\sdk\wandb_init.py", line 730, in init
+    result = run_init_handle.wait(
+  File "C:\Users\aadha\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\wandb\sdk\lib\mailbox.py", line 271, in wait
+    raise MailboxError("transport failed")
+wandb.errors.MailboxError: transport failed

@@ -1,0 +1,24 @@
+C:\Users\aadha\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\autocast_mode.py:141: UserWarning: User provided device_type of 'cuda', but CUDA is not available. Disabling
+  warnings.warn('User provided device_type of \'cuda\', but CUDA is not available. Disabling')
+Traceback (most recent call last):
+  File "d:\Your Masters\Winter 23\Autoencoder\main.py", line 81, in <module>
+    main()
+  File "d:\Your Masters\Winter 23\Autoencoder\main.py", line 78, in main
+    train(TransNet_vis, TransNet_ir, optimizer_vis, optimizer_ir, train_loader, criterion, config.NUM_EPOCHS)
+  File "d:\Your Masters\Winter 23\Autoencoder\main.py", line 38, in train
+    dec_ir = TransNet_ir.decoder(enc_ir)
+  File "C:\Users\aadha\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "d:\Your Masters\Winter 23\Autoencoder\autoencoder.py", line 68, in forward
+    x = self.res2(x)
+  File "C:\Users\aadha\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "d:\Your Masters\Winter 23\Autoencoder\autoencoder.py", line 19, in forward
+    x = self.conv2(x)
+  File "C:\Users\aadha\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\module.py", line 1102, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "C:\Users\aadha\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\conv.py", line 446, in forward
+    return self._conv_forward(input, self.weight, self.bias)
+  File "C:\Users\aadha\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\LocalCache\local-packages\Python39\site-packages\torch\nn\modules\conv.py", line 442, in _conv_forward
+    return F.conv2d(input, weight, bias, self.stride,
+RuntimeError: [enforce fail at ..\c10\core\CPUAllocator.cpp:76] data. DefaultCPUAllocator: not enough memory: you tried to allocate 8388608 bytes.

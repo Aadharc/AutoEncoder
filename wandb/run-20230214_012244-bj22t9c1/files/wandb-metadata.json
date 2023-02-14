@@ -1,0 +1,36 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.9.13",
+    "heartbeatAt": "2023-02-14T09:22:45.876008",
+    "startedAt": "2023-02-14T09:22:44.108347",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "D:\\Your Masters\\Winter 23\\Autoencoder\\main.py",
+    "codePath": "main.py",
+    "host": "Shinigami",
+    "username": "aadha",
+    "executable": "C:\\Users\\aadha\\AppData\\Local\\Microsoft\\WindowsApps\\PythonSoftwareFoundation.Python.3.9_qbz5n2kfra8p0\\python.exe",
+    "cpu_count": 8,
+    "cpu_count_logical": 16,
+    "cpu_freq": {
+        "current": 1801.0,
+        "min": 0.0,
+        "max": 1801.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1801.0,
+            "min": 0.0,
+            "max": 1801.0
+        }
+    ],
+    "disk": {
+        "total": 195.31151962280273,
+        "used": 77.08540344238281
+    },
+    "memory": {
+        "total": 15.354305267333984
+    }
+}

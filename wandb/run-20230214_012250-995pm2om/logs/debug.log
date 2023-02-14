@@ -1,0 +1,25 @@
+2023-02-14 01:22:50,872 INFO    MainThread:37796 [wandb_setup.py:_flush():68] Configure stats pid to 37796
+2023-02-14 01:22:50,872 INFO    MainThread:37796 [wandb_setup.py:_flush():68] Loading settings from C:\Users\aadha\.config\wandb\settings
+2023-02-14 01:22:50,872 INFO    MainThread:37796 [wandb_setup.py:_flush():68] Loading settings from D:\Your Masters\Winter 23\Autoencoder\wandb\settings
+2023-02-14 01:22:50,872 WARNING MainThread:37796 [wandb_setup.py:_flush():68] Unknown environment variable: WANDB_SERVICE
+2023-02-14 01:22:50,872 INFO    MainThread:37796 [wandb_setup.py:_flush():68] Loading settings from environment variables: {'_require_service': 'True'}
+2023-02-14 01:22:50,872 INFO    MainThread:37796 [wandb_setup.py:_flush():68] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-02-14 01:22:50,872 INFO    MainThread:37796 [wandb_init.py:_log_setup():492] Logging user logs to D:\Your Masters\Winter 23\Autoencoder\wandb\run-20230214_012250-995pm2om\logs\debug.log
+2023-02-14 01:22:50,872 INFO    MainThread:37796 [wandb_init.py:_log_setup():493] Logging internal logs to D:\Your Masters\Winter 23\Autoencoder\wandb\run-20230214_012250-995pm2om\logs\debug-internal.log
+2023-02-14 01:22:50,872 INFO    MainThread:37796 [wandb_init.py:init():532] calling init triggers
+2023-02-14 01:22:50,872 INFO    MainThread:37796 [wandb_init.py:init():538] wandb.init called with sweep_config: {}
+config: {}
+2023-02-14 01:22:50,872 INFO    MainThread:37796 [wandb_init.py:init():588] starting backend
+2023-02-14 01:22:50,872 INFO    MainThread:37796 [wandb_init.py:init():592] setting up manager
+2023-02-14 01:22:50,877 INFO    MainThread:37796 [backend.py:_multiprocessing_setup():106] multiprocessing start_methods=spawn, using: spawn
+2023-02-14 01:22:50,884 INFO    MainThread:37796 [wandb_init.py:init():599] backend started and connected
+2023-02-14 01:22:50,887 INFO    MainThread:37796 [wandb_init.py:init():687] updated telemetry
+2023-02-14 01:22:50,890 INFO    MainThread:37796 [wandb_init.py:init():727] communicating run to backend with 60.0 second timeout
+2023-02-14 01:22:51,742 INFO    MainThread:37796 [wandb_run.py:_on_init():2134] communicating current version
+2023-02-14 01:22:51,996 INFO    MainThread:37796 [wandb_run.py:_on_init():2143] got version response 
+2023-02-14 01:22:51,996 INFO    MainThread:37796 [wandb_init.py:init():775] starting run threads in backend
+2023-02-14 01:22:52,227 INFO    MainThread:37796 [wandb_run.py:_console_start():2114] atexit reg
+2023-02-14 01:22:52,227 INFO    MainThread:37796 [wandb_run.py:_redirect():1969] redirect: SettingsConsole.WRAP_RAW
+2023-02-14 01:22:52,227 INFO    MainThread:37796 [wandb_run.py:_redirect():2034] Wrapping output streams.
+2023-02-14 01:22:52,227 INFO    MainThread:37796 [wandb_run.py:_redirect():2059] Redirects installed.
+2023-02-14 01:22:52,227 INFO    MainThread:37796 [wandb_init.py:init():817] run started, returning control to user process
